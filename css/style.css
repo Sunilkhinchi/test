@@ -389,7 +389,7 @@ section#let-make-s .get-in-touch-div {
 
     .new-masonry-div  .first-innner {
         width: 50%;
-        background: url(/img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg) no-repeat;
+        background: url("../img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg") no-repeat;
         background-size: cover;
         background-position: center;
         height: 600px;
@@ -408,7 +408,7 @@ section#let-make-s .get-in-touch-div {
 
     .new-masonry-div .first-s-second .first-innner1 {
         width: 25%;
-        background: url(/img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg) no-repeat;
+        background: url("../img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg") no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -441,14 +441,14 @@ section#let-make-s .get-in-touch-div {
 
     .new-masonry-div  .first-innner2 div:first-child {
         width: 100%;
-        background: url(/img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg) no-repeat;
+        background: url("../img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg") no-repeat;
         background-size: cover;
         background-position: center;
          height: 50%;
     }
     .new-masonry-div  .first-innner2 div:nth-child(2) {
         width: 100%;
-        background: url(/img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg) no-repeat;
+        background: url("../img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg") no-repeat;
         background-size: cover;
         background-position: center;
         height: 50%;
@@ -618,7 +618,7 @@ section#let-make-s .get-in-touch-div {
     } 
 
     .news-section .new-first{
-        background: linear-gradient(0deg, rgba(3, 6, 54, 0.7), rgba(3, 6, 54, 0.7)), url("/img/computer") no-repeat;
+        background: linear-gradient(0deg, rgba(3, 6, 54, 0.7), rgba(3, 6, 54, 0.7)), url("../img/computer") no-repeat;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -636,12 +636,12 @@ section#let-make-s .get-in-touch-div {
     }
 
     .inner-section3{
-        background: linear-gradient(0deg, rgba(3, 6, 54, 0.7), rgba(3, 6, 54, 0.7)), url("/img/computer1.jpg") no-repeat;
+        background: linear-gradient(0deg, rgba(3, 6, 54, 0.7), rgba(3, 6, 54, 0.7)), url("../img/computer1.jpg") no-repeat;
         background-size: cover;
 
     }
     .inner-section4{
-        background: linear-gradient(0deg, rgba(3, 6, 54, 0.7), rgba(3, 6, 54, 0.7)), url("/img/computer2.jpg") no-repeat;
+        background: linear-gradient(0deg, rgba(3, 6, 54, 0.7), rgba(3, 6, 54, 0.7)), url("../img/computer2.jpg") no-repeat;
         background-size: cover;
         
     }
