@@ -71,8 +71,60 @@ section.topsection .log{
 
 section.topsection .log img{
     height: 100%;
+    filter: brightness(4);
+
 }
 
+/* menu */
+
+.nav-menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #3799dd;
+    width: 0%;
+    height: 0%;
+    transition: all .5s;
+}
+.nav-menu.open .menu-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+.nav-menu .menu-list ul li {
+    list-style: none;
+    text-transform: capitalize;
+} 
+
+.social-icons {
+    width: 100%;
+    display: flex;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+
+.nav-menu.open {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+/* menu end */
+
+/* toggle btn */
+
+/* Quick Style Setup */
+
+  
+
+/* toggle btn end */
 
 section.topsection  header {
     display: flex;
@@ -91,6 +143,7 @@ section.topsection  header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    z-index: 999;
 }
 
 .menutoggle .bar1, .menutoggle .bar2, .menutoggle .bar3 {
@@ -464,6 +517,7 @@ section#let-make-s .get-in-touch-div {
     }
     .menus-masonry {
         text-align: center;
+        margin-bottom: 30px;
     }
 
     .menus-masonry ul {
@@ -483,29 +537,23 @@ section#let-make-s .get-in-touch-div {
         color: #404040;
     }
 
-    .image-masonry .product {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        
-    }
-    .image-masonry .product .itembox{
-        width: 200px;
-        height: 200px;
-        margin: 5px;
-        position: relative;
+  
+ 
+    /* .image-masonry .product .itembox{
         display: block;
-    }
+    } */
     .image-masonry .product .itembox.hide {
         display: none;
+       
     }
+    .image-masonry .product .itembox.active {
+        position: unset !important;
+       
+    }
+
     .image-masonry .product .itembox img{
         width: 100%;
         height: 100%;
-        position: absolute;
-        top: 0px;
-        left: 0px;
         object-fit: cover;
     }
     .image-masonry {
@@ -537,6 +585,7 @@ section#let-make-s .get-in-touch-div {
         background-size: cover;
         text-align: center;
         padding: 80px 0px;
+        background-attachment: fixed;
     }
     section.testimonial h2 {
         font-size: 5rem;
@@ -813,5 +862,46 @@ button.submit-btn {
     width: 200px;
     
 }
+
+/* masonry-section css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #EEE;
+  max-width: 1200px;
+  min-height: 200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  float: left;
+  margin: 10px;
+  width: 48%;
+  height: 620px;
+  /* background: url(../img/graphicdesign/pexels-aleksandar-pasaric-1820770.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; */
+  
+}
+
+.grid-item--width2 { width: 48%; }
+.grid-item--width3 { width: 23%; }
+.grid-item--height2 { height: 300px; }
+
+
+
 
 
