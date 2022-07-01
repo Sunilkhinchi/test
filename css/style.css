@@ -159,6 +159,7 @@ section.topsection  header {
     justify-content: space-around;
     align-items: center;
     z-index: 999;
+    cursor: pointer;
 }
 
 .menutoggle .bar1, .menutoggle .bar2, .menutoggle .bar3 {
@@ -771,6 +772,7 @@ section#let-make-s .get-in-touch-div {
         border-width: 0px 0.5px;
         position: relative;
         aspect-ratio: 1/.7;
+        cursor: pointer;
     }
 
     .gradian-section .inner-gradian:after {
@@ -827,6 +829,7 @@ section#let-make-s .get-in-touch-div {
 
     .footer-div .left-footer .logo-footer {
         width: 30%;
+        cursor: pointer;
     }
     .footer-div .left-footer .logo-footer img{
         width: 100%;
