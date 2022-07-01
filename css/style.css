@@ -112,6 +112,12 @@ section.topsection .log img{
 .nav-menu .menu-list ul li {
     list-style: none;
     text-transform: capitalize;
+    cursor: pointer;
+} 
+
+.nav-menu .menu-list ul li:hover {
+    color: #000;
+   
 } 
 
 .social-icons {
@@ -119,6 +125,10 @@ section.topsection .log img{
     display: flex;
     column-gap: 15px;
     margin-top: 30px;
+}
+
+.social-icons  a:hover i {
+    color: #000;
 }
 
 .nav-menu.open {
