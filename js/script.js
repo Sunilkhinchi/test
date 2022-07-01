@@ -44,20 +44,20 @@ $('.grid').masonry({
 //     document.getElementById("header").classList.toggle("open");
 // }
 
-// const divopen = document.getElementById('nav-menu');
-// const addBtn = document.getElementById('menutoggleid');
+const divopen = document.getElementById('nav-menu');
+const addBtn = document.getElementById('menutoggleid');
 
 
-// addBtn.addEventListener('click',()=>{
+addBtn.addEventListener('click',()=>{
 
-//     if (divopen.classList.contains('open')) {
-//         divopen.classList.remove('open');
-//     } else {
-//         divopen.classList.add('open');
-//     }
-// })
+    if (divopen.classList.contains('open')) {
+        divopen.classList.remove('open');
+    } else {
+        divopen.classList.add('open');
+    }
+})
 
-// preventdefault();
+preventdefault();
 
 
 
