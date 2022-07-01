@@ -1070,6 +1070,12 @@ section.testimonial h2 {
 .get-in-touch-div .textsection h2 {
     font-size: 3rem;
 }
+
+.grid-item {
+    float: unset;
+    margin: unset;
+    padding: 10px 10px 0px;
+}
     
 }
 
