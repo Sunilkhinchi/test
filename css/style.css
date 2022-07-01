@@ -9,6 +9,9 @@
     --main-white: #fff;
 }
 
+/* .test {
+    test:test;
+} */
 html{
     font-size: 10px;
     color: var(--main-white);
